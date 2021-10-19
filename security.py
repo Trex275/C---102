@@ -21,7 +21,7 @@ def take_pictures():
     cv2.destroyAllWindows()
 
 def upload_pictures(image_name):
-    access_token = "jGkxKdo7KjcAAAAAAAAAAdsK96_nfQ7mheVO7xjfNc61ksY0kUtwZYc-kJaPVjgj"
+    access_token = "gvfewq957r79eqy4grbtuoaegpifv7t8grDDDDipuwhe"
     file_from = image_name
     file_to = "/testFolder/"+(image_name)
     dbx = dropbox.Dropbox(access_token)
